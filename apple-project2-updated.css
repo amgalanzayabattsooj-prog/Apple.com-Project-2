@@ -1,0 +1,667 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headermenu {
+  width: 100vw;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 12px;
+}
+.frame14 {
+  width: 1920px;
+  height: 4176px;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.menu-burger {
+  display: none;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.iphone16pro {
+  display: flex;
+  width: 100vw;
+  height: 692px;
+  background-image: url("./Background\ \(1\)\ copy\ 3.svg");
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.text {
+  width: 405px;
+  display: flex;
+  height: 172px;
+  gap: 20px;
+  padding-top: 55px;
+  flex-direction: column;
+  align-items: center;
+}
+.text1-1 {
+  width: 405px;
+  display: flex;
+  height: 60px;
+  font-size: 52px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  color: #f5f5f7;
+}
+.text1-2 {
+  width: 405px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #f5f5f7;
+}
+.text1-3 {
+  width: 207px;
+  height: 44px;
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+}
+.text1-3-1 {
+  width: 123px;
+  height: 44px;
+  display: flex;
+  border-radius: 9999px;
+  gap: 10px;
+  background-color: #0071e3;
+  font-size: 16px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.text1-3-2 {
+  width: 68px;
+  height: 44px;
+  display: flex;
+  font-size: 16px;
+  border-radius: 9999px;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid #0071e3;
+  color: #0071e3;
+  align-items: center;
+  justify-content: center;
+}
+.iphone16 {
+  display: flex;
+  width: 100vw;
+  height: 692px;
+  background-image: url("./Background\ \(1\).svg");
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+.ipadair {
+  display: grid;
+  background-color: white;
+  margin-bottom: 12px;
+  gap: 12px;
+  grid-template-rows: repeat(3, 580px);
+  grid-template-columns: repeat(2, 1fr);
+  width: 100vw;
+}
+.image-1 {
+  background-image: url("./Background\ \(2\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-2 {
+  background-image: url("./Background\ \(3\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-3 {
+  background-image: url("./Background\ \(4\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-4 {
+  background-image: url("./Background\ \(5\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-5 {
+  background-image: url("./Background\ \(2\)\ copy\ 3.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-6 {
+  background-image: url("./Background\ \(7\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-7 {
+  background-image: url("./Background\ \(7\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-8 {
+  background-image: url("./Background\ \(7\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-9 {
+  background-image: url("./Background\ \(7\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-10 {
+  background-image: url("./Background\ \(7\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-11 {
+  background-image: url("./Background\ \(7\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-12 {
+  background-image: url("./Background\ \(7\).svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-7,
+.image-8,
+.image-9,
+.image-10,
+.image-11,
+.image-12 {
+  display: none;
+}
+.frame27 {
+  display: none;
+}
+
+.container-web {
+  display: flex;
+  gap: 24px;
+  width: 100vw;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.anchors {
+  display: flex;
+  gap: 14px;
+  padding-block: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  width: 8px;
+  height: 8px;
+  background-color: grey;
+  border-radius: 9999px;
+}
+
+a:hover {
+  background-color: black;
+}
+
+#item-1 {
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  background-image: url("./napoleon.jpg");
+  background-position: center;
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.napoleon {
+  display: flex;
+  height: 44px;
+  width: 475px;
+  justify-content: space-between;
+  margin-top: 566px;
+  margin-left: 70px;
+}
+.first {
+  width: 133px;
+  height: 44px;
+  display: flex;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+}
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#item-2 {
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  background-image: url("./bad-monkey.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icecream {
+  display: flex;
+  height: 44px;
+  width: 425px;
+  justify-content: space-between;
+  margin-top: 566px;
+  margin-left: 70px;
+}
+.first2 {
+  width: 133px;
+  height: 44px;
+  display: flex;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+}
+.second2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+}
+#item-3 {
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  background-image: url("./pachinko.jpg");
+  background-position: center;
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pachinko {
+  display: flex;
+  height: 44px;
+  width: 325px;
+  justify-content: space-between;
+  margin-top: 566px;
+  margin-left: 70px;
+}
+.first3 {
+  width: 133px;
+  height: 44px;
+  display: flex;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+}
+.second3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+}
+#item-4 {
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  background-image: url("./pressumed-innocent.jpg");
+  background-position: center;
+  width: 1250px;
+  height: 668px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.crime {
+  display: flex;
+  height: 44px;
+  width: 345px;
+  justify-content: space-between;
+  margin-top: 566px;
+  margin-left: 70px;
+}
+.first4 {
+  width: 133px;
+  height: 44px;
+  display: flex;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 9999px;
+  align-items: center;
+  justify-content: center;
+}
+.second4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 17px;
+}
+/* animation */
+
+.slide-section {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.hello {
+  gap: 20px;
+  display: flex;
+  width: 4170px;
+  height: 258px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-item {
+  height: 100%;
+  width: 417px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: var(--bg);
+  animation: slider 60s linear infinite;
+  animation-delay: calc((56.5s / 10) * (var(--item) - 6.5));
+}
+
+button {
+  opacity: 0;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+}
+
+@keyframes slider {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -417px;
+  }
+}
+
+.hello:hover .slide-item {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+
+.hello .item:hover {
+  filter: grayscale(0);
+}
+
+.item:hover button {
+  opacity: 1;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .headermenu {
+    height: 48px;
+    justify-content: space-between;
+    padding-inline: 17px 15px;
+  }
+
+  span {
+    display: none;
+  }
+
+  .menu-burger {
+    display: inline;
+  }
+
+  .iphone16pro {
+    background-image: url("./Background.svg");
+    margin-bottom: 12px;
+  }
+  .text {
+    display: none;
+  }
+  .iphone16 {
+    background-image: url("./Background\ \(1\)\ copy\ 4.svg");
+    margin-top: 12px;
+  }
+
+  .image-1,
+  .image-2,
+  .image-3,
+  .image-4,
+  .image-5,
+  .image-6 {
+    display: none;
+  }
+
+  .image-7,
+  .image-8,
+  .image-9,
+  .image-10,
+  .image-11,
+  .image-12 {
+    display: block;
+  }
+  .image-7 {
+    background-image: url("./Background\ \(2\)\ copy\ 4.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image-8 {
+    background-image: url("./Background\ \(3\)\ copy\ 2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image-9 {
+    background-image: url("./Background\ \(4\)\ copy\ 2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image-10 {
+    background-image: url("./Background\ \(6\)\ copy\ 2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image-11 {
+    background-image: url("./Background\ \(7\)\ copy\ 2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .image-12 {
+    background-image: url("./Background\ \(8\)\ copy.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .frame27 {
+    display: none;
+  }
+  .container-web {
+    gap: 16px;
+    height: 368px;
+  }
+  .hello {
+    display: flex;
+    gap: 10px;
+  }
+  #item-1 {
+    width: 669px;
+    height: 368px;
+    background-image: url(./napoleon.jpg);
+  }
+  #item-2 {
+    width: 669px;
+    height: 368px;
+    background-image: url(./pachinko.jpg);
+  }
+  #item-3 {
+    width: 669px;
+    height: 368px;
+    background-image: url(./bad-monkey.jpg);
+  }
+  #item-4 {
+    width: 669px;
+    height: 368px;
+    background-image: url(./pressumed-innocent.jpg);
+  }
+  button {
+    opacity: 0;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+  }
+
+  @keyframes slider {
+    from {
+      left: 100%;
+    }
+    to {
+      left: -417px;
+    }
+  }
+
+  .hello:hover .slide-item {
+    filter: grayscale(1);
+    animation-play-state: paused;
+  }
+
+  .hello .item:hover {
+    filter: grayscale(0);
+  }
+
+  .item:hover button {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .iphone16pro {
+    background-image: url("./Background\ \(9\).svg");
+    margin-bottom: 12px;
+  }
+  .iphone16 {
+    background-image: url("./Background\ \(10\).svg");
+  }
+  .ipadair {
+    display: none;
+  }
+  .frame27 {
+    display: flex;
+    height: 3580px;
+    gap: 12px;
+    flex-direction: column;
+    background-color: white;
+  }
+  .image-13 {
+    height: 500px;
+    background-image: url("./Background\ \(11\).svg");
+  }
+  .image-14 {
+    height: 500px;
+    background-image: url("./Background\ \(12\).svg");
+  }
+  .image-14 {
+    height: 500px;
+    background-image: url("./Background\ \(13\).svg");
+  }
+  .image-15 {
+    height: 500px;
+    background-image: url("./Background\ \(14\).svg");
+  }
+  .image-16 {
+    height: 500px;
+    background-image: url("./Background\ \(15\).svg");
+  }
+  .image-17 {
+    height: 500px;
+    background-image: url("./Background\ \(16\).svg");
+  }
+  .image-18 {
+    height: 500px;
+    background-image: url("./Background\ \(17\).svg");
+  }
+  .image-19 {
+    height: 500px;
+    background-image: url("./Background\ \(18\).svg");
+  }
+  .container-web {
+    gap: 16px;
+    height: 495px;
+  }
+
+  #item-1 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./napoleon.jpg);
+  }
+  #item-2 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./pachinko.jpg);
+  }
+  #item-3 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./bad-monkey.jpg);
+  }
+  #item-4 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./pressumed-innocent.jpg);
+  }
+  .slide-item {
+    height: 134px;
+    width: 238px;
+    margin-bottom: 85px;
+    gap: 10px;
+  }
+}
